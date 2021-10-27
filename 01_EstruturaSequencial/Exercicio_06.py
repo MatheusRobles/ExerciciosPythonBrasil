@@ -1,6 +1,6 @@
 import math
 
-print("##calculando a area de um circulo##")
-raio = float(input("Digite o valor de r: \n"))
-area = 2*math.pi*raio
-print("O valor da area do circulo é", area)
+print("##CALCULANDO AREA DO CIRCULO##\n")
+raio = float(input("Digite o valor do raio do circulo: \n"))
+area = math.pi*pow(raio,2)
+print("A area do circulo é de {}".format(area))
