@@ -1,4 +1,3 @@
-valida = 1
 while(True):
 
   numero = int(input("Digite um numero para calcular o fatorial:\n"))
