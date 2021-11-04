@@ -1,0 +1,5 @@
+lista = range(1,21)
+print('\nLista Vertical\n')
+for n in lista: print(n)
+print('\nLista Horizontal\n')
+for n in lista: print(n, end = " ")
